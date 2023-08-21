@@ -5,9 +5,9 @@ body {
     
 }
 
-.ranking {
+.tabela {
     width: 80%;
-    max-width: 600px;
+    max-width: 900px;
     margin: 20px auto;
     background-color: #fdf9c4;
     border-radius: 8px;
