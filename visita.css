@@ -43,9 +43,6 @@ h2{
     filter: none;
 }
 
-.current-item {
-    opacity: 1;
-  }
 .container{
     background-color:#F5DEB3;
     position: relative;
