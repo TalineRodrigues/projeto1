@@ -30,8 +30,10 @@ body {
 }
 .link{
     font-family: 'Roboto', sem serifa;
-    font-size: 20px;
+    font-size: 25px;
     color: #000;
+    text-decoration: none;
+    color: #8B4513
     
 }
 .img{
