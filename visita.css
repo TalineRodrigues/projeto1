@@ -44,6 +44,9 @@ h2{
     padding: 40px;
     max-width: 330px;
     margin: 0;
+    dispay: flex;
+    justify-content: center;
+    align-item: center;
     
     border: 5px groove #006400;
   
