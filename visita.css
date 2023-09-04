@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@600&family=Poppins&family=Roboto+Condensed&family=Ubuntu:ital,wght@0,700;1,500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@600&family=Poppins:wght@400;700&family=Roboto+Condensed&family=Ubuntu:ital,wght@0,700;1,500&display=swap');
 body{
-    background-color: #DEB887;
+    background-color: #3CB371;
   
 }
 h1{
@@ -39,13 +39,13 @@ h2{
 
 
 .container{
-    background-color:#F5DEB3;
+    background-color:#90EE90;
     position: relative;
     padding: 40px;
     max-width: 330px;
     margin: 0 auto;
     
-    border: 5px groove #D2B48C;
+    border: 5px groove #006400;
   
 }
 
