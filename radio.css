@@ -1,1 +1,159 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    color: #ddd;
+    font-family: 'Montserrat', sans-serif;
+}
+/*fundo*/
+body{
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    overflow: hidden;
+    padding: 0;
+    background-color: #E6E6FA;
+  }
+  
+  li {
+    list-style: none;
+    display: block;
+    position: absolute;
+    bottom: -120px;
+    animation: up 3s infinite alternate;
+  }
+  
+  @keyframes up {
+    from {
+      opacity: 0;
+      transform: translateY(0);
+    }
+    50% {
+      opacity: 0.7;
+    }
+    to {
+      opacity: 0;
+      transform: translateY(-900px) rotate(900deg);
+    }
+  }
+
+
+
+
+footer {
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #9370DB;
+    box-sizing: border-box;
+    margin-top: 15px;
+}
+
+
+img {
+    width: 300px;
+    height: 300px;
+}
+
+.descricao {
+    width: 300px;
+    color: #1C1C1C;
+}
+
+h2 {
+    margin-bottom: 5px;
+}
+
+.duracao {
+    width: 300px;
+    margin-top: 25px;
+}
+
+.barra {
+    width: 300px;
+    height: 6px;
+    border: 1px solid #1C1C1C;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    color: #1C1C1C;
+}
+
+progress {
+    height: 6px;
+    width: 0;
+    background-color: #1C1C1C;
+}
+
+.ponto {
+    width: 20px;
+    height: 20px;
+    background-color: #1C1C1C;
+    border-radius: 50%;
+    margin-left: -10px;
+}
+
+.tempo {
+    display: flex;
+    width: 300px;
+    justify-content: space-between;
+    color: #1C1C1C;
+}
+
+.player {
+    width: 300px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 15px;
+    color: #1C1C1C;
+}
+
+.botao-play, .botao-pause {
+    font-size: 50px;
+    cursor: pointer;
+}
+
+.setas {
+    font-size: 40px;
+    cursor: pointer;
+}
+
+.botao-pause {
+    display: none;
+}
+
+.video{
+    width: 360px;
+    height: 360px;
+}
+
+.logo{
+    width: 300px;
+    height: 240px;
+    margin-left: 200x;
+}
+.cabecalho{
+    display: flex;
+    justify-content: space-around;
+    size: 15px;
+}
+.p{
+    font-size: 30px;
+    color: #1C1C1C;
+}
+.p1{
+    color:#836FFF;
+}
+.imag{
+    border-radius: 13px;
+}
+
 
