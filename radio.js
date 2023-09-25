@@ -1,9 +1,9 @@
 let musicas = [
-    {titulo:'A BOYS IS A GUN', artista:'Tyler, The Creator', src:'A BOY IS A GUN__9JQDPjpfiGw.mp3', img:'music/1.png'},
+    {titulo:'A BOYS IS A GUN', artista:'Tyler, The Creator', src:'A BOY IS A GUN__9JQDPjpfiGw.mp3', img:'1.png'},
 
     {titulo:'ARE WE STILL FRIENDS', artista:'The Creator', src:'ARE WE STILL FRIENDS__Gb76TgCUqAY.mp3', img:'1.png'},
 
-    {titulo:'NOVEMBER', artista:'Tyler, The Creator', src:'November_JaXoDWSQQrk.mp3', img:'5.PNG'},
+    {titulo:'NOVEMBER', artista:'Tyler, The Creator', src:'November_JaXoDWSQQrk.mp3', img:'5.png'},
 
     {titulo:'BEST INTEREST', artista:'Tyler, The Creator', src:'BEST INTEREST_NkMTKGM-efw.mp3', img:'2.png'},
 
