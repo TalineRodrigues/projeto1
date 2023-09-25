@@ -65,8 +65,6 @@ document.querySelector('.proxima').addEventListener('click', () => {
     tocarMusica();
 });
 
-musica.addEventListener('ended', avancarParaProximaMusica);
-
 // Funções
 function renderizarMusica(index){
     musica.setAttribute('src', musicas[index].src);
@@ -107,7 +105,7 @@ function segundosParaMinutos(segundos){
     return campoMinutos+':'+campoSegundos;
 }
 
-
+// body
 
 const ul = document.querySelector("ul");
 
@@ -138,3 +136,4 @@ for (let i = 0; i < 50; i++) {
 
   ul.appendChild(li);
 }
+
