@@ -1,9 +1,9 @@
 let musicas = [
-    {titulo:'A BOYS IS A GUN', artista:'Tyler, The Creator', src:'A BOY IS A GUN__9JQDPjpfiGw.mp3', img:'1.png'},
+    {titulo:'A BOYS IS A GUN', artista:'Tyler, The Creator', src:'A BOY IS A GUN__9JQDPjpfiGw.mp3', img:'music/1.png'},
 
     {titulo:'ARE WE STILL FRIENDS', artista:'The Creator', src:'ARE WE STILL FRIENDS__Gb76TgCUqAY.mp3', img:'1.png'},
 
-    {titulo:'POTATO SALAD', artista:'Tyler, The Creator', src:'A_AP ROCKY X TYLER THE CREATOR - POTATO SALAD_93M1QtYDtpU.mp3', img:'5.png'},
+    {titulo:'POTATO SALAD', artista:'Tyler, The Creator', src:'', img:'5.PNG'},
 
     {titulo:'BEST INTEREST', artista:'Tyler, The Creator', src:'BEST INTEREST_NkMTKGM-efw.mp3', img:'2.png'},
 
@@ -62,7 +62,10 @@ document.querySelector('.proxima').addEventListener('click', () => {
         indexMusica = 0;
     }
     renderizarMusica(indexMusica);
+    tocarMusica();
 });
+
+musica.addEventListener('ended', avancarParaProximaMusica);
 
 // Funções
 function renderizarMusica(index){
@@ -103,6 +106,12 @@ function segundosParaMinutos(segundos){
 
     return campoMinutos+':'+campoSegundos;
 }
+
+
+window.addEventListener('load', () => {
+    renderizarMusica(indexMusica);
+    tocarMusica();
+});
 
 // body
 
