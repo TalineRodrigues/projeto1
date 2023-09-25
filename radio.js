@@ -5,13 +5,13 @@ let musicas = [
 
     {titulo:'POTATO SALAD', artista:'Tyler, The Creator', src:'A_AP ROCKY X TYLER THE CREATOR - POTATO SALAD_93M1QtYDtpU.mp3', img:'5.png'},
 
-    {titulo:'BEST INTEREST', artista:'Tyler, The Creator', src:'BEST INTEREST_NkMTKGM-efw.mp3', img:'radio/2.png'},
+    {titulo:'BEST INTEREST', artista:'Tyler, The Creator', src:'BEST INTEREST_NkMTKGM-efw.mp3', img:'2.png'},
 
-    {titulo:'EARFQUAKE', artista:'Tyler, The Creator', src:'EARFQUAKE_HmAsUQEFYGI.mp3', img:'radio/1.png'},
+    {titulo:'EARFQUAKE', artista:'Tyler, The Creator', src:'EARFQUAKE_HmAsUQEFYGI.mp3', img:'1.png'},
 
-    {titulo:'I THINK', artista:'Tyler, The Creator', src:'I THINK_m91Vq-Yd3BA.mp3', img:'radio/4.png'},
+    {titulo:'I THINK', artista:'Tyler, The Creator', src:'I THINK_m91Vq-Yd3BA.mp3', img:'4.png'},
 
-    {titulo:'PUPPET', artista:'Tyler, The Creator', src:'PUPPET_OZzfUagtyPE.mp3', img:'radio/6.png'},
+    {titulo:'PUPPET', artista:'Tyler, The Creator', src:'PUPPET_OZzfUagtyPE.mp3', img:'6.png'},
 
     {titulo:'RUNNING OUT OF TIME', artista:'Tyler, The Creator', src:'RUNNING OUT OF TIME_Uyf_lImpdRw.mp3', img:'1.png'},
 
