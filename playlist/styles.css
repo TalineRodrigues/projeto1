@@ -1,0 +1,122 @@
+
+
+body, html {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #FFE4B5;
+    color: #ddd;
+    font-family: 'Montserrat', sans-serif;
+}
+footer {
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #A0522D;
+    box-sizing: border-box;
+    margin-top: 15px;
+}
+
+
+img {
+    width: 300px;
+    height: 300px;
+}
+
+.descricao {
+    width: 300px;
+    color: #1C1C1C;
+}
+
+h2 {
+    margin-bottom: 5px;
+}
+
+.duracao {
+    width: 300px;
+    margin-top: 25px;
+}
+
+.barra {
+    width: 300px;
+    height: 6px;
+    border: 1px solid #1C1C1C;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    color: #1C1C1C;
+}
+
+progress {
+    height: 6px;
+    width: 0;
+    background-color: #333;
+}
+
+.ponto {
+    width: 20px;
+    height: 20px;
+    background-color: #1C1C1C;
+    border-radius: 50%;
+    margin-left: -10px;
+}
+
+.tempo {
+    display: flex;
+    width: 300px;
+    justify-content: space-between;
+    color: #1C1C1C;
+}
+
+.player {
+    width: 300px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 15px;
+    color: #1C1C1C;
+}
+
+.botao-play, .botao-pause {
+    font-size: 50px;
+    cursor: pointer;
+}
+
+.setas {
+    font-size: 40px;
+    cursor: pointer;
+}
+
+.botao-pause {
+    display: none;
+}
+
+.video{
+    width: 360px;
+    height: 360px;
+}
+
+
+.cabecalho{
+    margin-top: 70px;
+    display: flex;
+    justify-content: space-around;
+    size: 15px;
+}
+.p{
+    font-size: 30px;
+    color: #1C1C1C;
+}
+.p1{
+    color:#B8860B;
+}
+.imag{
+    border-radius: 13px;
+}
