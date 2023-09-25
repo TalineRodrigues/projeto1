@@ -108,12 +108,6 @@ function segundosParaMinutos(segundos){
 }
 
 
-window.addEventListener('load', () => {
-    renderizarMusica(indexMusica);
-    tocarMusica();
-});
-
-// body
 
 const ul = document.querySelector("ul");
 
